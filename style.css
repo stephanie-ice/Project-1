@@ -17,18 +17,3 @@
     position: relative;
     border-radius: 4px;
 }
-
-.close-button {
-    float: right;
-    width: 10px;
-    line-height: 10px;
-    font-size: 28px;
-    color:lightslategray;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: maroon;
-    cursor: pointer;
-}
