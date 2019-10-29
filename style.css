@@ -1,3 +1,43 @@
+.home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 600px;
+}
+
+.icons {
+    margin: 10px 5px -20px 5px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 80px;
+}
+
+.about {
+    width: 600px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #00BFFF 0%, #FFC0CB 90%);
+    border-color: #FFC0CB;
+}
+
 .background-modal {
     display: none;
     z-index: 1;
@@ -26,9 +66,46 @@
     color:lightslategray;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
     color: black;
     text-decoration: maroon;
     cursor: pointer;
+}
+
+#w {
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    animation-name: slideIn;
+    animation-duration: 1.5s;
+}
+
+@keyframes slideIn {
+    from, 20% {
+        transform: translateX(-650px);
+    }
+    20%, 21% {
+        transform: translateX(-200px) rotate(5deg);
+    }
+    24%, 27% {
+        transform: translateX(-150px) rotate(25deg);
+    }
+    30%, 33% {
+        transform: translateX(-100px) rotate(35deg);
+    }
+    43%, 55% {
+        transform: translateX(-50px) rotate(45deg);
+    }
+    58%, 63% {
+        transform: translateX(-50px) rotate(40deg);
+    }
+    65%, 75% {
+        transform: translateX(0px) rotate(0deg) translateY(-50px);
+    }
+    75%, 85% {
+        transform: translateY(-7px);
+    }
+    85% {
+        transform: translateY(0px);
+    }
 }
