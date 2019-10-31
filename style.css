@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .home {
     display: block;
     margin-left: auto;
@@ -38,6 +39,8 @@ form {
     border-color: #FFC0CB;
 }
 
+=======
+>>>>>>> 2732fc0eb15661215b68838d96b8d9c4303b7d01
 .background-modal {
     display: none;
     z-index: 1;
@@ -57,6 +60,7 @@ form {
     position: relative;
     border-radius: 4px;
 }
+<<<<<<< HEAD
 
 .close-button {
     float: right;
@@ -254,4 +258,8 @@ form {
     75%, to {
         transform: translateX(-758px) translateY(-232px) rotate(-450deg);
     }
+=======
+iframe.container{
+    margin: 60px auto;
+>>>>>>> 2732fc0eb15661215b68838d96b8d9c4303b7d01
 }
