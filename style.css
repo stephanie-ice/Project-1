@@ -253,7 +253,8 @@ form {
     }
     75%, to {
         transform: translateX(-758px) translateY(-232px) rotate(-450deg);
-    }}
-#contact {
+    }
+}
+#contact{
     margin: 60px auto;
 }
