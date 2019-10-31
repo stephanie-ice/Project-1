@@ -52,10 +52,11 @@ form {
 
 .modal-content {
     width: 500px;
-    height: 300px;
+    height: 350px;
     background-color: white;
     position: relative;
     border-radius: 4px;
+    text-align: center;
 }
 
 .close-button {
