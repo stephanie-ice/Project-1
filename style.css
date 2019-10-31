@@ -258,3 +258,11 @@ form {
 #contact{
     margin: 60px auto;
 }
+#map{
+    height: 400px;
+    width: 100%;
+    border: none;
+    margin: 60px auto;
+    border-top: 1px solid #cbcaca;
+    border-bottom: 1px solid #cbcaca;
+}
