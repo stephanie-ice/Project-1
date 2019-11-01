@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .home {
     display: block;
     margin-left: auto;
@@ -12,35 +11,59 @@
 }
 
 footer {
-    position: relative;
     width: 100%;
     bottom: 0;
     margin-top: 80px;
+    position: fixed;
 }
 
 .about {
     width: 600px;
-    margin-top: 30px;
+    height: 1000px;
+    margin-top: 40px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-form {
+.workshops {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#workshop1, #workshop2, #workshop3, #workshop4, #workshop5 {
+    height: 90px;
+    font-size: 20px;
+}
+
+#workshop1 {
+    border-top: none;
+}
+
+#workshop1, #workshop3, #workshop5 {
+    background-color: #00BFFF;
+}
+
+#workshop2, #workshop4 {
+    background-color: #FFC0CB;
+}
+
+/* form {
     width: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-}
+} */
 
 .btn {
     background-image: linear-gradient(to right, #00BFFF 0%, #FFC0CB 90%);
     border-color: #FFC0CB;
 }
 
-=======
->>>>>>> 2732fc0eb15661215b68838d96b8d9c4303b7d01
 .background-modal {
     display: none;
     z-index: 1;
@@ -54,13 +77,13 @@ form {
 }
 
 .modal-content {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 360px;
     background-color: white;
     position: relative;
     border-radius: 4px;
+    padding: 20px;
 }
-<<<<<<< HEAD
 
 .close-button {
     float: right;
@@ -258,8 +281,25 @@ form {
     75%, to {
         transform: translateX(-758px) translateY(-232px) rotate(-450deg);
     }
-=======
-iframe.container{
-    margin: 60px auto;
->>>>>>> 2732fc0eb15661215b68838d96b8d9c4303b7d01
+}
+
+#contact {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -150px;
+}
+
+#location {
+    position: relative;
+    margin-top: 43px;
+    margin-left: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#map {
+    border: 1px solid #cbcaca;
+    border-radius: 5%; 
 }
